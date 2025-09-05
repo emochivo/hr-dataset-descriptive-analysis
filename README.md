@@ -24,9 +24,22 @@ Department, Status and Work_Mode are nominal variables because these variables d
 
 
 ### III. Results
+
+![alt text](/figures/Frequency_Distribution_Nominal_Variables.png) 
+
+*Figure 1. The histograms represent frequency distributions of the nominal variables: Department, Status, Work_Mode.*
+
 From the frequency distribution figures, I can identify the numbers of employees in each department, status category, and work mode. Among 2 million employees, IT has the most employees with nearly 600.000 employees (around 30% of the total employee count). The Sales department follows with approximately 400.000 employees (around 20% of the total employee count). The number of active employees dominates the company with more than 1,250,000 employees, which made up over 62.5% of the total employees. The numbers of on-site employees are slightly larger than people who applied for remote work with approximately 1,250,000 and 750,000 employees, respectively.
 
+![alt text](/figures/CDF_and_Frequency_Distribution_Ordinal_Variable.png) 
+
+*Figure 2. The cumulative distribution function represents the percentile (left) and the histogram represents the frequency distribution (right) of the ordinal variable Performance_Rating.*
+
 I use the cumulative distribution function (CDF) to showcase the percentile of employees’ performance ratings, and a histogram to display its frequency distribution. The cumulative distribution curve explains that the employee with the lowest performance rating made up 20% of the employee count, and nearly 40% of the employee having the performance rating less than or equal to 2. About 60% of the employees have a performance rating of less than or equal to 3, 80% having it of less than or equal to 4, and employees with the highest performance rating contain the remaining 20% of the total employee count. The CDF shows that there are an equal number of employees in each rating category, and it shows in the frequency distribution, where each performance rating recorded around 400,000 employees.
+
+![alt text](/figures/Box_Plots_Continuous_Variables.png) 
+
+*Figure 3. The box plots represent the range and interquartile range of continuous variables Experience_Years (left) and Salary_INR (right).*
 
 In Figure 3, the employees’ years of experience and annual salary are described in box plots, which provide information on value ranges and the interquartile range (IQR) within them. The left boxplot shows that 2 years of experience is the 25th percentile among the experience years range, 5 years of experience is the median, and 8 years of experience is the 75th percentile. The maximum number of years of experience is 15, while the minimum experience year is zero. For the annual salary, while there are some people reaching from 2 to 3 million INR, the median for the annual salary is only around 800,000 INR, and the 75th percentile for annual salary is only slightly over 1 million Rupees.
 
